@@ -1,0 +1,14 @@
+{
+    "name": "imponeer/editor-contracts",
+    "description": "Interfaces for building PHP classes that lets to easier make web editor integrations in your content management systems",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Imponeer\\Contracts\\Editor\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/polyfill-php80": "^1.23"
+    }
+}
