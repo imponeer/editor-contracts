@@ -14,7 +14,7 @@ jobs:
       - name: Checkouting main code...
         uses: actions/checkout@v2
       - name: Updating Project Wiki...
-        uses: impresscms-dev/phpdocs-wiki-update-action@v2.1
+        uses: impresscms-dev/phpdocs-wiki-update-action@v2.2
         with:
           class_root_namespace: Imponeer\Contracts\Editor\
           include: Imponeer\Contracts\Editor\**
