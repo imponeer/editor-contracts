@@ -197,6 +197,10 @@ The project includes GitHub Actions CI/CD pipeline that:
 - Runs code style checks
 - Performs static analysis
 
+### API Documentation
+
+For detailed API documentation, please visit the [Wiki](https://github.com/imponeer/editor-contracts/wiki).
+
 ## 🤝 Contributing
 
 We welcome contributions! Here's how you can help:
