@@ -31,5 +31,4 @@ interface EditorFactoryInterface
      * @throws IncompatibleEditorException
      */
     public function create(array $config, bool $checkCompatible = false): EditorAdapterInterface;
-
 }
