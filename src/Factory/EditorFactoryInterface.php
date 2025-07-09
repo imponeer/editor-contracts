@@ -3,7 +3,6 @@
 namespace Imponeer\Contracts\Editor\Factory;
 
 use Imponeer\Contracts\Editor\Adapter\EditorAdapterInterface;
-use Imponeer\Contracts\Editor\EditorInterface;
 use Imponeer\Contracts\Editor\Exceptions\IncompatibleEditorException;
 use Imponeer\Contracts\Editor\Info\EditorInfoInterface;
 
@@ -31,6 +30,6 @@ interface EditorFactoryInterface
      *
      * @throws IncompatibleEditorException
      */
-    public function create(array $config, $checkCompatible = false): EditorAdapterInterface;
+    public function create(array $config, bool $checkCompatible = false): EditorAdapterInterface;
 
 }
