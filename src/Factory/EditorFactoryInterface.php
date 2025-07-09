@@ -23,7 +23,7 @@ interface EditorFactoryInterface
     /**
      * Create editor instance from config
      *
-     * @param array $config Configuration for new editor instance
+     * @param array<string, mixed> $config Configuration for new editor instance
      * @param bool $checkCompatible If config check fails throws IncompatibleEditorException
      *
      * @return EditorAdapterInterface
