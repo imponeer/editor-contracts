@@ -9,5 +9,4 @@ namespace Imponeer\Contracts\Editor\Info;
  */
 interface WYSIWYGEditorInfoInterface extends EditorInfoInterface
 {
-
 }

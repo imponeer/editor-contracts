@@ -9,7 +9,6 @@ namespace Imponeer\Contracts\Editor\Info;
  */
 interface EditorInfoInterface
 {
-
     /**
      * Gets editor name
      *
@@ -37,5 +36,4 @@ interface EditorInfoInterface
      * @return string
      */
     public function getLicense(): string;
-
 }

@@ -11,7 +11,6 @@ use Stringable;
  */
 interface EditorAdapterInterface extends Stringable
 {
-
     /**
      * Gets HTML attributes for editor container
      *
