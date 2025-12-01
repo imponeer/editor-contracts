@@ -23,7 +23,7 @@ jobs:
     name: Test - php:${{ matrix.php }}; composer:${{ matrix.composer }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v5.0.0
+        uses: actions/checkout@v6.0.0
       - name: Install PHP
         uses: shivammathur/setup-php@2.36.0
         with:
