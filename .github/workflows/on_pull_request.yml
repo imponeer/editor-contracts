@@ -16,7 +16,7 @@ jobs:
       matrix: ${{ steps.versions.outputs.matrix }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v6.0.2
+        uses: actions/checkout@v7.0.0
       - name: Get PHP versions
         id: versions
         uses: antfroger/php-version-action@v1
@@ -34,7 +34,7 @@ jobs:
     name: Test - php:${{ matrix.php }}; composer:${{ matrix.composer }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v6.0.2
+        uses: actions/checkout@v7.0.0
       - name: Install PHP
         uses: shivammathur/setup-php@2.37.2
         with:
